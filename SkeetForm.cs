@@ -24,6 +24,7 @@ namespace Skeet_Menu
             Graphics g = e.Graphics;
             g.FillRectangle(gradient, area);
             base.OnPaint(e);
+            this.BackColor = Color.FromArgb(17,17,17);
 
             for (int i = 1; i < 7; i++)
             {
