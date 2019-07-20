@@ -5,13 +5,12 @@ namespace Skeet_Menu
 {
     class SkeetGroupbox : GroupBox
     {
-
-        protected override void OnPaint(PaintEventArgs e)
+         protected override void OnPaint(PaintEventArgs e)
         {
-            DrawGroupBox(this, e.Graphics, Color.White, Color.FromArgb(44,42,46));
+            DrawGroupBox(this, e.Graphics, Color.White, Color.FromArgb(44, 42, 46), Color.Black);
         }
 
-        private void DrawGroupBox(GroupBox box, Graphics g, Color textColor, Color borderColor)
+        private void DrawGroupBox(GroupBox box, Graphics g, Color textColor, Color borderColor, Color borderColor2)
         {
             if (box != null)
             {
