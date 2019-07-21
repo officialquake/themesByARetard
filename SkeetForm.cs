@@ -24,15 +24,15 @@ namespace Skeet_Menu
             Graphics g = e.Graphics;
             g.FillRectangle(gradient, area);
             base.OnPaint(e);
-            this.BackColor = Color.FromArgb(17,17,17);
+            this.BackColor = Color.FromArgb(9,8,9);
 
             for (int i = 1; i < 7; i++)
             {
-                Rectangle rect = new Rectangle(i - 1, i - 1, Width - (i * 2), Height - (i * 2));
+                Rectangle rect = new Rectangle(i - 1, i - 1, Width - (i * 2) + 1, Height - (i * 2) + 1);
                 Pen lightGrey = new Pen(Color.FromArgb(60, 60, 60));
                 Pen darkGrey = new Pen(Color.FromArgb(40, 40, 40));
 
-                if (i == 1 || i == 7)
+                if (i == 1)
                     e.Graphics.DrawRectangle(Pens.Black, rect);
 
                 if (i == 2 || i == 6)
