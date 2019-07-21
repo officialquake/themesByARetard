@@ -20,4 +20,4 @@ ControlStyles.OptimizedDoubleBuffer
 );
 ```
 
-![Example](https://i.imgur.com/el5sb6C.png)
+![Example](https://i.imgur.com/rj7oNUW.png)
