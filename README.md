@@ -19,3 +19,5 @@ ControlStyles.OptimizedDoubleBuffer
 | ControlStyles.SupportsTransparentBackColor, true
 );
 ```
+
+![Example](https://i.imgur.com/el5sb6C.png)
