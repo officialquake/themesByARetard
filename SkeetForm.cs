@@ -12,7 +12,7 @@ namespace Skeet_Menu
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            Rectangle area = new Rectangle(5, 7, Width - 12, 2);
+             Rectangle area = new Rectangle(7, 7, Width - 14, 2);
 
             LinearGradientBrush gradient = new LinearGradientBrush(area, this.ColorLeft, this.ColorMiddle, 0.0f);
 
